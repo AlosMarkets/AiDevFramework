@@ -219,6 +219,8 @@ Implement to the strictest standard (GDPR) as your default, then add jurisdictio
 
 ---
 
+## Recommended Stack
+
 This stack is opinionated by design. Every choice has a reason. Alternatives are listed where the tradeoff is real.
 
 ### Framework — Next.js (App Router)
