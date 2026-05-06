@@ -6,37 +6,37 @@
       <stop offset="100%" style="stop-color:#5C9CC8"/>
     </linearGradient>
   </defs>
-  
+
   <!-- Background circle -->
   <circle cx="256" cy="256" r="240" fill="#000000"/>
-  
-  <!-- AI Logo - Abstract neural network / brain shape -->
-  <g transform="translate(136, 136)">
-    <!-- Central node -->
-    <circle cx="120" cy="120" r="50" fill="url(#ai-grad)"/>
-    
-    <!-- Orbital rings -->
-    <ellipse cx="120" cy="120" rx="140" ry="65" fill="none" stroke="#9577C8" stroke-width="4" opacity="0.5" transform="rotate(-20, 120, 120)"/>
-    <ellipse cx="120" cy="120" rx="140" ry="65" fill="none" stroke="#E68A5C" stroke-width="4" opacity="0.5" transform="rotate(40, 120, 120)"/>
-    <ellipse cx="120" cy="120" rx="140" ry="65" fill="none" stroke="#5C9CC8" stroke-width="4" opacity="0.5" transform="rotate(100, 120, 120)"/>
-    
-    <!-- Outer nodes -->
-    <circle cx="-16" cy="70" r="18" fill="#E8B84A"/>
-    <circle cx="256" cy="170" r="18" fill="#7AAA5C"/>
-    <circle cx="40" cy="220" r="18" fill="#E68A5C"/>
-    <circle cx="200" cy="20" r="18" fill="#9577C8"/>
-    <circle cx="240" cy="90" r="18" fill="#5C9CC8"/>
-    <circle cx="8" cy="150" r="18" fill="#FFEFB5" stroke="#E8B84A" stroke-width="3"/>
-    
-    <!-- Connection lines -->
-    <line x1="-16" y1="70" x2="70" y2="100" stroke="#E8B84A" stroke-width="3" opacity="0.6"/>
-    <line x1="256" y1="170" x2="170" y2="140" stroke="#7AAA5C" stroke-width="3" opacity="0.6"/>
-    <line x1="40" y1="220" x2="80" y2="160" stroke="#E68A5C" stroke-width="3" opacity="0.6"/>
-    <line x1="200" y1="20" x2="150" y2="80" stroke="#9577C8" stroke-width="3" opacity="0.6"/>
-    <line x1="240" y1="90" x2="170" y2="110" stroke="#5C9CC8" stroke-width="3" opacity="0.6"/>
-    <line x1="8" y1="150" x2="70" y2="135" stroke="#E8B84A" stroke-width="3" opacity="0.6"/>
-    
-    <!-- Center glow -->
-    <circle cx="120" cy="120" r="70" fill="url(#ai-grad)" opacity="0.25"/>
+
+  <!-- AI Logo - exact proportions from og-image, scaled 2x -->
+  <g transform="translate(16, 16) scale(2)">
+    <!-- Central node - r="35" in og-image -->
+    <circle cx="120" cy="120" r="35" fill="url(#ai-grad)"/>
+
+    <!-- Orbital rings - rx="100" ry="45" stroke-width="2" in og-image -->
+    <ellipse cx="120" cy="120" rx="100" ry="45" fill="none" stroke="#9577C8" stroke-width="2" opacity="0.4" transform="rotate(-20, 120, 120)"/>
+    <ellipse cx="120" cy="120" rx="100" ry="45" fill="none" stroke="#E68A5C" stroke-width="2" opacity="0.4" transform="rotate(40, 120, 120)"/>
+    <ellipse cx="120" cy="120" rx="100" ry="45" fill="none" stroke="#5C9CC8" stroke-width="2" opacity="0.4" transform="rotate(100, 120, 120)"/>
+
+    <!-- Outer nodes - r="12" in og-image -->
+    <circle cx="20" cy="85" r="12" fill="#E8B84A"/>
+    <circle cx="220" cy="155" r="12" fill="#7AAA5C"/>
+    <circle cx="70" cy="200" r="12" fill="#E68A5C"/>
+    <circle cx="170" cy="40" r="12" fill="#9577C8"/>
+    <circle cx="200" cy="90" r="12" fill="#5C9CC8"/>
+    <circle cx="40" cy="140" r="12" fill="#FFEFB5" stroke="#E8B84A" stroke-width="2"/>
+
+    <!-- Connection lines - stroke-width="2" in og-image -->
+    <line x1="20" y1="85" x2="85" y2="105" stroke="#E8B84A" stroke-width="2" opacity="0.5"/>
+    <line x1="220" y1="155" x2="155" y2="135" stroke="#7AAA5C" stroke-width="2" opacity="0.5"/>
+    <line x1="70" y1="200" x2="100" y2="150" stroke="#E68A5C" stroke-width="2" opacity="0.5"/>
+    <line x1="170" y1="40" x2="140" y2="90" stroke="#9577C8" stroke-width="2" opacity="0.5"/>
+    <line x1="200" y1="90" x2="155" y2="105" stroke="#5C9CC8" stroke-width="2" opacity="0.5"/>
+    <line x1="40" y1="140" x2="85" y2="130" stroke="#E8B84A" stroke-width="2" opacity="0.5"/>
+
+    <!-- Center glow - r="50" in og-image -->
+    <circle cx="120" cy="120" r="50" fill="url(#ai-grad)" opacity="0.2"/>
   </g>
 </svg>
