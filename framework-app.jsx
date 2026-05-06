@@ -450,8 +450,53 @@ function App() {
               }
             }, "\"", FRAMEWORK.livePrompt.quote, "\""),
             React.createElement("p", { style: { fontSize: 17, lineHeight: 1.6, margin: "14px 0 14px", fontFamily: "Inter, sans-serif" } }, FRAMEWORK.livePrompt.after),
-            React.createElement("p", { style: { fontSize: 17, lineHeight: 1.6, margin: 0, fontFamily: "Inter, sans-serif" } }, FRAMEWORK.livePrompt.closing)
-          )
+            React.createElement("p", { style: { fontSize: 17, lineHeight: 1.6, margin: 0, fontFamily: "Inter, sans-serif" } }, FRAMEWORK.livePrompt.closing),
+            React.createElement("div", { style: { display: "flex", gap: 12, marginTop: 20, flexWrap: "wrap" } },
+              React.createElement("a", {
+                href: "/ai-dev-framework.md",
+                download: true,
+                style: {
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: 8,
+                  background: COLORS.lilac.deep,
+                  color: "#fff",
+                  padding: "12px 20px",
+                  borderRadius: 10,
+                  fontFamily: "Inter, sans-serif",
+                  fontSize: 15,
+                  fontWeight: 600,
+                  textDecoration: "none",
+                  transition: "transform 0.2s, box-shadow 0.2s"
+                }
+              }, "↓ Download .md"),
+              React.createElement("button", {
+                onClick: function() {
+                  fetch("/ai-dev-framework.md").then(function(r) { return r.text(); }).then(function(text) {
+                    navigator.clipboard.writeText(text);
+                    var btn = document.getElementById("copy-btn");
+                    btn.textContent = "✓ Copied!";
+                    setTimeout(function() { btn.textContent = "Copy to Clipboard"; }, 2000);
+                  });
+                },
+                id: "copy-btn",
+                style: {
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: 8,
+                  background: "transparent",
+                  border: "2px solid " + COLORS.lilac.deep,
+                  color: COLORS.lilac.deep,
+                  padding: "10px 18px",
+                  borderRadius: 10,
+                  fontFamily: "Inter, sans-serif",
+                  fontSize: 15,
+                  fontWeight: 600,
+                  cursor: "pointer",
+                  transition: "transform 0.2s"
+                }
+              }, "Copy to Clipboard")
+            )
         )
       ),
 
