@@ -8,7 +8,7 @@
   </defs>
   
   <!-- Background circle -->
-  <circle cx="256" cy="256" r="240" fill="#1a1a1a"/>
+  <circle cx="256" cy="256" r="240" fill="#000000"/>
   
   <!-- AI Logo - Abstract neural network / brain shape -->
   <g transform="translate(136, 136)">
