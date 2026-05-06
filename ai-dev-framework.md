@@ -341,13 +341,23 @@ This stack is opinionated by design. Every choice has a reason. Alternatives are
 
 This document is designed to be pasted directly into any AI at the start of a session. You don't need to explain the workflow — the AI reads the framework and knows its role at each stage.
 
+**What this framework is:**
+- A structured workflow that guides you through 5 stages
+- A security and privacy checklist baked into the process
+- A way to keep humans in control at every checkpoint
+
+**What this framework is NOT:**
+- A "paste this and get a finished app" prompt
+- A replacement for your own idea, judgment, or effort
+- A shortcut that skips the work
+
 **How to use it:**
 
 Paste this entire document into your AI of choice and say something like:
 
 > "I want to use this framework. Here it is: [paste framework]"
 
-The AI will read it and respond ready to begin Stage 1 — it will ask for your idea and guide you through the process from there.
+The AI will read it and respond ready to begin Stage 1 — it will ask for your idea and guide you through the process from there. You still need to bring your idea, review each output, and make decisions at checkpoints. The framework ensures the process is solid. It doesn't replace the work — it structures it.
 
 This means the framework is both documentation and a working tool. Share it with a teammate and they can start a session the same way. Paste it into a new conversation and pick up where you left off. The workflow is portable, repeatable, and self-explanatory to any capable AI model.
 

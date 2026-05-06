@@ -434,6 +434,12 @@ function App() {
           React.createElement(SubHead, { glyph: "✦" }, "Using This Framework as a Live Prompt"),
           React.createElement(Card, { color: "lilac" },
             React.createElement("p", { style: { fontSize: 17, lineHeight: 1.6, margin: "0 0 14px", fontFamily: "Inter, sans-serif" } }, FRAMEWORK.livePrompt.intro),
+            React.createElement("p", { style: { fontSize: 15, lineHeight: 1.6, margin: "0 0 8px", fontFamily: "Inter, sans-serif", color: COLORS.lilac.deep } },
+              React.createElement("strong", null, "What it is: "), FRAMEWORK.livePrompt.whatIs
+            ),
+            React.createElement("p", { style: { fontSize: 15, lineHeight: 1.6, margin: "0 0 14px", fontFamily: "Inter, sans-serif", color: "#8B7355" } },
+              React.createElement("strong", null, "What it is NOT: "), FRAMEWORK.livePrompt.whatIsNot
+            ),
             React.createElement("p", { style: { fontSize: 17, lineHeight: 1.6, margin: "0 0 14px", fontFamily: "Inter, sans-serif" } },
               React.createElement("strong", null, "How to use it:"), " ", FRAMEWORK.livePrompt.how
             ),

@@ -373,11 +373,13 @@ window.FRAMEWORK = {
   livePrompt: {
     intro:
       "This document is designed to be pasted directly into any AI at the start of a session. You don't need to explain the workflow — the AI reads the framework and knows its role at each stage.",
+    whatIs: "What this framework is: a structured workflow, a security checklist baked into the process, a way to keep humans in control.",
+    whatIsNot: "What it is NOT: a \"paste and get a finished app\" prompt, a replacement for your idea or judgment, a shortcut that skips the work.",
     how: "Paste this entire document into your AI of choice and say something like:",
     quote:
       "I want to use this framework. Here it is: [paste framework]",
     after:
-      "The AI will read it and respond ready to begin Stage 1 — it will ask for your idea and guide you through the process from there.",
+      "The AI will read it and respond ready to begin Stage 1 — it will ask for your idea and guide you through the process from there. You still need to bring your idea, review each output, and make decisions at checkpoints. The framework ensures the process is solid. It doesn't replace the work — it structures it.",
     closing:
       "This means the framework is both documentation and a working tool. Share it with a teammate and they can start a session the same way. Paste it into a new conversation and pick up where you left off. The workflow is portable, repeatable, and self-explanatory to any capable AI model."
   },
