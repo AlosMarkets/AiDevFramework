@@ -503,6 +503,7 @@ function App() {
                 }
               }, "Copy to Clipboard")
             )
+          )
         )
       ),
 
