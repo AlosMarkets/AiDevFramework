@@ -503,7 +503,13 @@ function App() {
         }
       }, FRAMEWORK.tagline),
       React.createElement("div", { style: { fontFamily: "Inter, sans-serif", fontSize: 14, opacity: 0.7 } },
-        "Framework ", FRAMEWORK.version
+        "Framework ", FRAMEWORK.version, " · ",
+        React.createElement("a", {
+          href: "https://github.com/AlosMarkets/AiDevFramework",
+          target: "_blank",
+          rel: "noopener noreferrer",
+          style: { color: "#2A2418", textDecoration: "underline" }
+        }, "GitHub")
       )
     )
   );
