@@ -554,6 +554,9 @@ function App() {
           color: "#2A2418"
         }
       }, FRAMEWORK.tagline),
+      React.createElement("div", { style: { fontFamily: "'DM Serif Display', serif", fontSize: 17, fontStyle: "italic", color: "#2A2418", margin: "0 0 6px" } },
+        "A framework by Alos."
+      ),
       React.createElement("div", { style: { fontFamily: "Inter, sans-serif", fontSize: 14, opacity: 0.7 } },
         "Framework ", FRAMEWORK.version, " · ",
         React.createElement("a", {
